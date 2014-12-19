@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*
+    COLOR PALETTE
+    background colors:
+    #000000
+    #4d4d4d
+    #ffffff
+
+     text-color
+     #333333
+     #ffffff
+     #000000
+     #007ca5
+     #00aeef
+     #d3ad7f
+     #999999
+
+primary palette contains red, blue, and warm greys.
+
+
+*/
+
+.background-color-000000{
+    background-color: #000000;
+}
+.background-color-333333{
+    background-color: #333333;
+}
+.background-color-000000{
+    background-color: #000000;
+}
+.background-color-007ca5{
+    background-color: #007ca5;
+}
+.background-color-00aeef{
+    background-color: #d3ad7f;
+}
+
+.background-color-d3ad7f{
+    background-color: #d3ad7f;
+}
+
+.background-color-999999{
+    background-color: #999999;
+}

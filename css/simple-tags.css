@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/**
+ * Headings:
+ *`h1` - font-size: 32px; line-height: 36px;
+ *
+ *`h2` - font-size: 28px; line-height: 32px;
+ *
+ *`h3` - font-size: 21px; line-height: 28px;
+ *
+ *`h4` - font-size: 21px; line-height: 24px;
+ *
+ *`h5` - font-size: 18px; line-height: 22px;
+ *
+ *`h6` - font-size: 16px; line-height: 18px;
+ *
+ *
+ *     @example
+ *     h1 Wired Heading 1
+ *     h2 Wired Heading 2
+ *     h3 Wired Heading 3
+ *     h4 Wired Heading 4
+ *     h5 Wired Heading 5
+ *     h6 Wired Heading 6
+ *
+ *
+ */
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+div,nav,header,section,article,aside,footer {
+    position: relative;
+}
+
+dl,li, ol,ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th,td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+a {
+    color: #00aeef;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a img {
+    border: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/**
+ * Text:
+ * Occasionally, there is a need to distinguish some copy from our normal styles. In these cases, you should use one of the following utilities.
+ *
+ *`p` - This is the standard format for text
+ *
+ *`strong` - This is for text you want to become strong
+ *
+ *`sub` - This is for text you want to become subscripted
+ *
+ *`sup` - This is for text you want to become superscripted
+ *
+ *
+ *     @example
+ *     p This is a normal text
+ *     p Lorem Ipsum <strong>  Strong text </strong>
+ *     p Lorem Ipsum <sup> superscripted text</sup>
+ *     p Lorem Ipsum <sub> subscripted text</sub>
+ *
+ */
+
+q,blockquote {
+    quotes: none;
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+    content: "";
+    content: none;
+}
+strong {
+    font-weight: 600;
+}
+
+sup {
+    font-size: .7em;
+    line-height: 0;
+    vertical-align: super;
+}
+
+sub {
+    font-size: .7em;
+    line-height: 0;
+    vertical-align: sub;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

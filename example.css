@@ -1,0 +1,104 @@
+/**
+ * # Styleguide options
+ *
+ * ### Head
+ *
+ *     meta(name="viewport" content="width=device-width, initial-scale=1")
+ *     link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+ *     link(rel='stylesheet' href='example.css')
+ *     link(rel='stylesheet' href='styledown.css')
+ *     script(src='styledown.js')
+ *
+ * ### Body
+ *
+ *     .jumbotron.jumbotron-styleguide
+ *       .container
+ *         h1 Bootstrap styleguides
+ *         p
+ *           | This is a sample styleguide for Bootstrap that was generated using
+ *           | Styledown, a styleguide generator. They were taken from inline comments
+ *           | in the CSS.
+ *     .container
+ *          p styledown css/*.css example.css > wired.html
+ *          div(sg-content)
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+/*
+ * jumbotron for the styleguide.
+ */
+
+.jumbotron-styleguide {
+  background: #fafafa;
+  border-bottom: solid 1px #eee;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jumbotron-styleguide h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: #111;
+  font-size: 3.4em;
+  margin-bottom: 20px;
+}
+
+.jumbotron-styleguide p {
+  font-weight: 400;
+  font-size: 1.15em;
+  line-height: 1.7;
+  color: #222;
+}
+
+.jumbotron-styleguide .btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  margin: 10px 5px 0 5px;
+  color: #1a8;
+  border-color: #ddd;
+}
+
+.jumbotron-styleguide .btn:hover {
+  background: #1a8;
+  border-color: transparent;
+  color: #fff;
+}
+
+.jumbotron-styleguide .container {
+  max-width: 500px;
+}
+
+/*
+ * override heading styles.
+ */
+
+h2.sg.sg {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+}
+
+/*
+ * for @example.slim
+ */
+
+.sg-slim .sg-canvas {
+  max-width: 300px;
+}
+
+/*
+ * for @example.wide
+ */
+
+.sg-wide .sg-canvas {
+  max-width: 540px;
+}
