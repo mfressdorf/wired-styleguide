@@ -5,21 +5,22 @@
  *
  *     meta(name="viewport" content="width=device-width, initial-scale=1")
  *     link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
- *     link(rel='stylesheet' href='example.css')
- *     link(rel='stylesheet' href='styledown.css')
- *     script(src='styledown.js')
+ *     link(rel='stylesheet' href='wired.css')
+ *     link(rel='stylesheet' href='../styleguide.css')
+ *     link(rel='stylesheet' href='../styledown.css')
+ *     script(src='../styledown.js')
  *
  * ### Body
  *
  *     .jumbotron.jumbotron-styleguide
- *       .container
- *         h1 Bootstrap styleguides
+ *         h1 Wired Styleguide
  *         p
- *           | This is a sample styleguide for Bootstrap that was generated using
- *           | Styledown, a styleguide generator. They were taken from inline comments
- *           | in the CSS.
+ *           | This is a styleguide for Wired.com
+ *         p
+ *           a.btn.btn-default(href="sg-brandguide.html") Brandguide
+ *           a.btn.btn-active(href="sg-components.html") CSS Components
+ *           a.btn.btn-default(href="sg-styleguide.html") CSS Styleguide
  *     .container
- *          p styledown css/*.css example.css > wired.html
  *          div(sg-content)
  */
 
@@ -101,4 +102,44 @@ h2.sg.sg {
 
 .sg-wide .sg-canvas {
   max-width: 540px;
+}
+/*
+ * for color circles (eg: to show background colors)
+ */
+.sg-circle {
+	border-radius: 50%;
+    border: 2px solid #000;
+	width: 75px;
+	height: 75px;
+    display: inline-block;
+    line-height:75px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.sg-circle-text-grey{
+    background-color: #333333;
+}
+.sg-circle-text-white{
+    background-color: #ffffff;
+}
+.sg-circle-text-black{
+    background-color: #000000;
+}
+.sg-circle-text-darkblue{
+    background-color: #007ca5;
+}
+.sg-circle-text-blue{
+    background-color: #00aeef;
+}
+.sg-circle-text-beige{
+    background-color: #d3ad7f;
+}
+.sg-circle-text-lightgrey{
+    background-color: #999999;
+}
+.sg-img {
+    float: left;
+    padding-right: 2px;
 }

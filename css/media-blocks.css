@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/**
+ * Media Blocks:
+ *
+ * `media` - Media Block wrapper
+ *
+ * `img` - Media Object (image)
+ *
+ * `content` - Media Block Content
+ *
+ *     @example
+ *     div.media
+ *        a(href="#", class="img")
+ *           img(src="imgs/wired-media-block-img.jpg")
+ *        div.content Wired.com Media Block
+ */
+
+.media {
+    margin:10px;
+}
+.media, .content {
+    overflow:hidden;
+    zoom:1;
+}
+.media .img {
+    float:left; margin-right: 10px;
+}
+.media .img img {
+    display:block;
+}
+.media .imgRight {
+    float:right; 
+    margin-left: 10px;
+}

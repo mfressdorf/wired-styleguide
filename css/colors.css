@@ -1,45 +1,74 @@
 @charset "UTF-8";
-/*
-    COLOR PALETTE
-    background colors:
-    #000000
-    #4d4d4d
-    #ffffff
 
-     text-color
-     #333333
-     #ffffff
-     #000000
-     #007ca5
-     #00aeef
-     #d3ad7f
-     #999999
+/**
+ * Background Colors:
+ *
+ * `bg-black` - Black background color
+ *
+ * `bg-grey` - Grey background color
+ *
+ * `bg-white` - White background color
+ *
+ *     @example
+ *     p.bg-black.text-white Black Background Color
+ *     p.bg-grey.text-white Grey Background Color
+ *     p.bg-white White Background Color
+ */
 
-primary palette contains red, blue, and warm greys.
-
-
-*/
-
-.background-color-000000{
+.bg-black{
     background-color: #000000;
 }
-.background-color-333333{
-    background-color: #333333;
+.bg-grey{
+    background-color: #4d4d4d;
 }
-.background-color-000000{
-    background-color: #000000;
-}
-.background-color-007ca5{
-    background-color: #007ca5;
-}
-.background-color-00aeef{
-    background-color: #d3ad7f;
+.bg-white{
+    background-color: #ffffff;
 }
 
-.background-color-d3ad7f{
-    background-color: #d3ad7f;
+/**
+ * Text Colors:
+ * 
+ * `text-grey` - grey text color
+ *
+ * `text-white` - white text color
+ *
+ * `text-black` - black text color
+ *
+ * `text-darkblue` - darkblue text color
+ * 
+ * `text-blue` - blue text color
+ *
+ * `text-beige` - beige text color
+ *
+ * `text-lightgrey` - lightgrey text color
+ *
+ *     @example
+ *     p.text-grey Grey text color
+ *     p.text-white.bg-grey White text color
+ *     p.text-black Black text color
+ *     p.text-darkblue Darkblue text color
+ *     p.text-blue Blue text color
+ *     p.text-beige Beige text color
+ *     p.text-lightgrey Lightgrey text color
+ */
+.text-grey{
+    color: #333333;
 }
-
-.background-color-999999{
-    background-color: #999999;
+.text-white{
+    color: #ffffff;
+}
+.text-black{
+    color: #000000;
+}
+.text-darkblue{
+    color: #007ca5;
+}
+.text-blue{
+    color: #00aeef;
+}
+.text-beige{
+    color: #d3ad7f;
+}
+.text-lightgrey{
+    color: #999999;
 }

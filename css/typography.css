@@ -1,0 +1,18 @@
+.typography-1 {
+    font-family: calibre,calibre-1,calibre-2,brandon-grotesque,HelveticaNeue,Helvetica-Neue,Helvetica,arial,sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.typography-2 {
+    font-family: periodico-text,periodico-text-1,periodico-text-2,"Exchange SSm 4r",HelveticaNeue,Helvetica-Neue,Helvetica,arial,sans-serif;
+    font-size: 34px;
+}
+.typography-3 {
+    font-family: calibre,calibre-1,calibre-2,brandon-grotesque,HelveticaNeue,Helvetica-Neue,Helvetica,arial,sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.typography-4 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}

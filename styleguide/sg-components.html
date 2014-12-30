@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="sg">
+
+<head>
+  <meta charset="utf-8">
+  <title>Styledown</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="wired.css">
+  <link rel="stylesheet" href="../styleguide.css">
+  <link rel="stylesheet" href="../styledown.css">
+  <script src="../styledown.js"></script>
+</head>
+
+<body class="sg">
+  <div class="jumbotron jumbotron-styleguide">
+    <h1>Wired Styleguide</h1>
+    <p>This is a styleguide for Wired.com</p>
+    <p>
+      <a href="sg-brandguide.html" class="btn btn-default">Brandguide</a>
+      <a href="sg-components.html" class="btn btn-active">CSS Components</a>
+      <a href="sg-styleguide.html" class="btn btn-default">CSS Styleguide</a>
+    </p>
+  </div>
+  <div class="container">
+    <div>
+      <section class="sg-block sg-section-background-colors">
+        <div class="sg-text">
+          <h3 id="background-colors" class="sg">Background Colors</h3>
+          <p class="sg">
+            <code class="sg">bg-black</code>- Black background color</p>
+          <p class="sg">
+            <code class="sg">bg-grey</code>- Grey background color</p>
+          <p class="sg">
+            <code class="sg">bg-white</code>- White background color</p>
+        </div>
+        <div class="sg-example">
+          <div class="sg-canvas">
+            <p class="bg-black text-white">Black Background Color</p>
+            <p class="bg-grey text-white">Grey Background Color</p>
+            <p class="bg-white">White Background Color</p>
+          </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;bg-black text-white&quot;</span>&gt;</span>Black Background Color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;bg-grey text-white&quot;</span>&gt;</span>Grey Background Color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;bg-white&quot;</span>&gt;</span>White Background Color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></pre>
+        </div>
+      </section>
+
+      <section class="sg-block sg-section-text-colors">
+        <div class="sg-text">
+          <h3 id="text-colors" class="sg">Text Colors</h3>
+          <p class="sg">
+            <code class="sg">text-grey</code>- grey text color</p>
+          <p class="sg">
+            <code class="sg">text-white</code>- white text color</p>
+          <p class="sg">
+            <code class="sg">text-black</code>- black text color</p>
+          <p class="sg">
+            <code class="sg">text-darkblue</code>- darkblue text color</p>
+          <p class="sg">
+            <code class="sg">text-blue</code>- blue text color</p>
+          <p class="sg">
+            <code class="sg">text-beige</code>- beige text color</p>
+          <p class="sg">
+            <code class="sg">text-lightgrey</code>- lightgrey text color</p>
+        </div>
+        <div class="sg-example">
+          <div class="sg-canvas">
+            <p class="text-grey">Grey text color</p>
+            <p class="text-white bg-grey">White text color</p>
+            <p class="text-black">Black text color</p>
+            <p class="text-darkblue">Darkblue text color</p>
+            <p class="text-blue">Blue text color</p>
+            <p class="text-beige">Beige text color</p>
+            <p class="text-lightgrey">Lightgrey text color</p>
+          </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-grey&quot;</span>&gt;</span>Grey text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-white bg-grey&quot;</span>&gt;</span>White text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-black&quot;</span>&gt;</span>Black text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-darkblue&quot;</span>&gt;</span>Darkblue text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-blue&quot;</span>&gt;</span>Blue text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-beige&quot;</span>&gt;</span>Beige text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;text-lightgrey&quot;</span>&gt;</span>Lightgrey text color<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></pre>
+        </div>
+      </section>
+
+      <section class="sg-block sg-section-media-blocks">
+        <div class="sg-text">
+          <h3 id="media-blocks" class="sg">Media Blocks</h3>
+          <p class="sg">
+            <code class="sg">media</code>- Media Block wrapper</p>
+          <p class="sg">
+            <code class="sg">img</code>- Media Object (image)</p>
+          <p class="sg">
+            <code class="sg">content</code>- Media Block Content</p>
+        </div>
+        <div class="sg-example">
+          <div class="sg-canvas">
+            <div class="media">
+              <a href="#" class="img">
+                <img src="imgs/wired-media-block-img.jpg">
+              </a>
+              <div class="content">Wired.com Media Block</div>
+            </div>
+          </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;media&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">&quot;#&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;img&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;imgs/wired-media-block-img.jpg&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;content&quot;</span>&gt;</span>Wired.com Media Block<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
+        </div>
+      </section>
+
+      <section class="sg-block sg-section-headings">
+        <div class="sg-text">
+          <h3 id="headings" class="sg">Headings</h3>
+          <p class="sg">
+            <code class="sg">h1</code>- font-size: 32px; line-height: 36px;</p>
+          <p class="sg">
+            <code class="sg">h2</code>- font-size: 28px; line-height: 32px;</p>
+          <p class="sg">
+            <code class="sg">h3</code>- font-size: 21px; line-height: 28px;</p>
+          <p class="sg">
+            <code class="sg">h4</code>- font-size: 21px; line-height: 24px;</p>
+          <p class="sg">
+            <code class="sg">h5</code>- font-size: 18px; line-height: 22px;</p>
+          <p class="sg">
+            <code class="sg">h6</code>- font-size: 16px; line-height: 18px;</p>
+        </div>
+        <div class="sg-example">
+          <div class="sg-canvas">
+            <h1>Wired Heading 1</h1>
+            <h2>Wired Heading 2</h2>
+            <h3>Wired Heading 3</h3>
+            <h4>Wired Heading 4</h4>
+            <h5>Wired Heading 5</h5>
+            <h6>Wired Heading 6</h6>
+          </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Wired Heading 1<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Wired Heading 2<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h3</span>&gt;</span>Wired Heading 3<span class="hljs-tag">&lt;/<span class="hljs-title">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h4</span>&gt;</span>Wired Heading 4<span class="hljs-tag">&lt;/<span class="hljs-title">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h5</span>&gt;</span>Wired Heading 5<span class="hljs-tag">&lt;/<span class="hljs-title">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h6</span>&gt;</span>Wired Heading 6<span class="hljs-tag">&lt;/<span class="hljs-title">h6</span>&gt;</span></pre>
+        </div>
+      </section>
+
+      <section class="sg-block sg-section-text">
+        <div class="sg-text">
+          <h3 id="text" class="sg">Text</h3>
+          <p class="sg">Occasionally, there is a need to distinguish some copy from our normal styles. In these cases, you should use one of the following utilities.</p>
+          <p class="sg">
+            <code class="sg">p</code>- This is the standard format for text</p>
+          <p class="sg">
+            <code class="sg">strong</code>- This is for text you want to become strong</p>
+          <p class="sg">
+            <code class="sg">sub</code>- This is for text you want to become subscripted</p>
+          <p class="sg">
+            <code class="sg">sup</code>- This is for text you want to become superscripted</p>
+        </div>
+        <div class="sg-example">
+          <div class="sg-canvas">
+            <p>This is a normal text</p>
+            <p>Lorem Ipsum
+              <strong>Strong text</strong>
+            </p>
+            <p>Lorem Ipsum
+              <sup>superscripted text</sup>
+            </p>
+            <p>Lorem Ipsum
+              <sub>subscripted text</sub>
+            </p>
+          </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>This is a normal text<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem Ipsum
+  <span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>Strong text<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem Ipsum
+  <span class="hljs-tag">&lt;<span class="hljs-title">sup</span>&gt;</span>superscripted text<span class="hljs-tag">&lt;/<span class="hljs-title">sup</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem Ipsum
+  <span class="hljs-tag">&lt;<span class="hljs-title">sub</span>&gt;</span>subscripted text<span class="hljs-tag">&lt;/<span class="hljs-title">sub</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></pre>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+
+</html>
